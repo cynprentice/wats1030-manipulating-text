@@ -1,0 +1,4 @@
+I am creating this file with emacs.
+I had the fewest problems with nano, which being the first editor in the assignment, was the first editor I played with this week. The commands were fairly straight foward, and it was the easiest portion of the assignment. I felt like it might be limiting down the road compared to the capabilities of the other programs. Maybe there is a better way to find all the matches to a string, but a
+
+I found the assignment fairly easy to complete in Vi as well, and I liked the command to pattern match count all instances of a string :%s/pattern//n

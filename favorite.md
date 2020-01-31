@@ -1,0 +1,6 @@
+I am creating this file with emacs.
+I had the fewest problems with nano, which being the first editor in the assignment, was the first editor I played with this week. The commands were fairly straight foward, and it was the easiest portion of the assignment. I felt like it might be limiting down the road compared to the capabilities of the other programs. Maybe there is a better way to find all the matches to a string, but the way I did it felt like a weird hack. I did a find and replace of Kuno to Kuno to get a count.
+
+I found the assignment fairly easy to complete in Vi as well, and I liked the command to pattern match count all instances of a string :%s/pattern//n. Switching in and out of the insert mode got a bit tedious.
+
+I started working with emacs 2nd, but had such a hard time with it that I quit and went back to it in the end. I got stuck trying to use C-x C-f to open a file. When I opened files through the command line by typing emacs <file-name>, things went much better. I like the M-x count-matches command to find all the instances of Kuno. I also played a little with the keystrokes to navigate through a file. I felt like emacs would be very powerful once I got used to it, so despite my initial struggles, I want to invest more time into learning this editor and will keep working with it.
