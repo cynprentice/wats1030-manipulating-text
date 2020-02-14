@@ -1,28 +1,15 @@
-Eric Raymond’s 17 Unix Rules# Ensure that Apache listens on port 80
-Listen 80
-
-# Listen for virtual host requests on all IP addresses
-NameVirtualHost *:80
-
-<VirtualHost *:80>
-DocumentRoot /www/unix
-ServerName www.unix.com
-
-# Other directives here
-
-</VirtualHost>
-
-<VirtualHost *:80>
-DocumentRoot /www/linux
-ServerName www.unix.org
-
-# Other directives here
-
-</VirtualHost>[edit]
+Eric Raymond’s 17 Unix Rules[edit]
 In his book The Art of Unix Programming that was first published in 2003, Eric S. Raymond, an American programmer and open source advocate, summarizes the Unix philosophy as KISS Principle of "Keep it Simple, Stupid." He provides a series of design rules:
 
 Rule of Modularity
-Developers should build a program out of simple parts connected by well defined interfaces, so problems are local, and parts of the program can be replaced in future versions to support new features. This rule aims to save time on debugging code that is complex, long, and unreadable.
+Developers should build a program out of simple parts connected by well defined interfaces, so problems are local, and parts of the program can be replaced in future versions to support new features. ThFrom The UNIX Programming Environment (1984) by Brian Kernighan and Rob Pike
+Even though the UNIX system introduces a number of innovative programs and techniques, no
+single program or idea makes it work well. Instead, what makes it effective is the approach to
+programming, a philosophy of using the computer. Although that philosophy can't be written
+down in a single sentence, at its heart is the idea that the power of a system comes more from
+the relationships among programs than from the programs themselves. Many UNIX programs
+do quite trivial things in isolation, but, combined with other programs, become general and
+is rule aims to save time on debugging code that is complex, long, and unreadable.
 
 Rule of Clarity
 Developers should write programs as if the most important communication is to the developer, including themself, who will read and maintain the program rather than the computer. This rule aims to make code readable and comprehensible for whoever works on the code in future.
@@ -71,5 +58,3 @@ Developers should design their programs to be flexible and open. This rule aims 
 
 Rule of Extensibility
 Developers should design for the future by making their protocols extensible, allowing for easy plugins without modification to the program's architecture by other developers, noting the version of the program, and more. This rule aims to extend the lifespan and enhance the utility of the code the developer writes.
-
-
